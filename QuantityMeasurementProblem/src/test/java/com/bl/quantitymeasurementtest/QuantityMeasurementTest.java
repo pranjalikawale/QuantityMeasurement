@@ -90,7 +90,10 @@ public class QuantityMeasurementTest {
         QuantityMeasurement quantityMeasurement1=null;
         Assert.assertNotEquals(quantityMeasurement1,quantityMeasurement);
     }
-
-
+    @Test
+    public void checkForInchObject_WhenReferenceEqual_ShouldReturnTrue() {
+        quantityMeasurement.getMeasurement(Measurement.ConversionUnit.INCHTOFEET,1);
+        Assert.assertEquals(quantityMeasurement,quantityMeasurement);
+    }
 
 }
