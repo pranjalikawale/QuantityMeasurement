@@ -212,6 +212,12 @@ public class QuantityMeasurementTest {
                             (Measurement.Unit.FEET,1,Measurement.Unit.INCH,2,Measurement.Unit.INCH)
                             ,0.0);
     }
+    @Test
+    public void givenOneFeetOneFeet_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(24.0,quantityMeasurement.performAddition
+                           (Measurement.Unit.FEET,1,Measurement.Unit.FEET,1,Measurement.Unit.INCH)
+                            ,0.0);
+    }
 
 
 }
