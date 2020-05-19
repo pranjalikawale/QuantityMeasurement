@@ -12,7 +12,7 @@ public class QuantityMeasurement {
         return quantity;
     }
     //Check the Equality of units
-    public String checkEquality(Measurement.Unit type1,double val1,Measurement.Unit type2,double val2){
+    public boolean checkEquality(Measurement.Unit type1,double val1,Measurement.Unit type2,double val2){
         if(checkType(type1,type2))
             val1=convertUnit(type1,val1,type2);
         return checkForValueEquality((int)val1,(int)val2);
@@ -32,10 +32,10 @@ public class QuantityMeasurement {
         return val1;
     }
     //Value are equal or not
-    public String checkForValueEquality(double val1,double val2){
+    public boolean checkForValueEquality(double val1,double val2){
         if(Double.compare(val1,val2)==0)
-            return "Equal";
-        return "Not Equal";
+            return true;
+        return false;
     }
     @Override
     public boolean equals(Object o) {
