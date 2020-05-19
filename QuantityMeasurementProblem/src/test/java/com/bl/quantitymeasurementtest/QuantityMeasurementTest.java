@@ -247,15 +247,22 @@ public class QuantityMeasurementTest {
                             ,0.0);
     }
     @Test
-    public void given1KgAnd1000Gram_WhenEqual_ShouldReturnEqual() {
+    public void given1KgAnd1000Gram_WhenEqual_ShouldReturnTrue() {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.KILOGRAM,1,Measurement.Unit.GRAM,1000));
     }
     @Test
-    public void given1TonneAnd1000Kg_WhenEqual_ShouldReturnEqual() {
+    public void given1TonneAnd1000Kg_WhenEqual_ShouldReturnTrue() {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.KILOGRAM,1,Measurement.Unit.GRAM,1000));
     }
+    @Test
+    public void given1TonneAnd1000g_WhenAdd_ShouldReturnResult() {
+        Assert.assertEquals(1001,quantityMeasurement.performAddition
+                           (Measurement.Unit.TON,1,Measurement.Unit.GRAM,1000,
+                            Measurement.Unit.KILOGRAM),0.0);
+    }
+
 
 
 
