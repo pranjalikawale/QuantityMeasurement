@@ -229,6 +229,11 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                 (Measurement.Unit.GALLON,1,Measurement.Unit.LITER,3.78));
     }
+    @Test
+    public void givenLiterAndMiliLiter_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.LITER,1,Measurement.Unit.MILILITER,1000));
+    }
 
 
 
