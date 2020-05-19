@@ -218,6 +218,12 @@ public class QuantityMeasurementTest {
                            (Measurement.Unit.FEET,1,Measurement.Unit.FEET,1,Measurement.Unit.INCH)
                             ,0.0);
     }
+    @Test
+    public void givenTwoInchTwoAndHalfCm_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(3.0,quantityMeasurement.performAddition
+                           (Measurement.Unit.INCH,2,Measurement.Unit.CENTIMETER,2.5,Measurement.Unit.INCH)
+                           ,0.0);
+    }
 
 
 }
