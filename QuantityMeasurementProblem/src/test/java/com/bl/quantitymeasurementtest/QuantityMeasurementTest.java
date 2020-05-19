@@ -179,5 +179,10 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.INCH,36,Measurement.Unit.YARD,1));
     }
+    @Test
+    public void givenOneYardThreeFeet_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.YARD,1,Measurement.Unit.FEET,3));
+    }
 
 }
