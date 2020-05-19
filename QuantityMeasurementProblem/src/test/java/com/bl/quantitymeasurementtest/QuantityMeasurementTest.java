@@ -185,10 +185,16 @@ public class QuantityMeasurementTest {
                          (Measurement.Unit.YARD,1,Measurement.Unit.FEET,3));
     }
     @Test
-    public void given5CmTwoInch_WhenEqual_ShouldReturnEqual() {
+    public void givenTwoInch5Cm_WhenEqual_ShouldReturnEqual() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.INCH,2,Measurement.Unit.CENTIMETER,5));
+    }
+    @Test
+    public void given5CentimeterTwoInch_WhenEqual_ShouldReturnTrue() {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.CENTIMETER,5,Measurement.Unit.INCH,2));
     }
+
 
 
 }
