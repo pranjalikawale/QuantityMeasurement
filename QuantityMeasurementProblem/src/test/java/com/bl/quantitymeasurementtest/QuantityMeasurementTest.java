@@ -142,13 +142,17 @@ public class QuantityMeasurementTest {
     @Test
     public void givenLengthInFeet_WhenZero_ShouldReturnYard() {
         Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
-                           (Measurement.ConversionUnit.FEETTOYARD,0),0.0);
+                (Measurement.ConversionUnit.FEETTOYARD, 0), 0.0);
     }
-
     @Test
     public void givenLengthInFeet_WhenImproper_ShouldReturnYard() {
         Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
                            (Measurement.ConversionUnit.FEETTOYARD,-1),0.0);
+    }
+    @Test
+    public void givenLengthInYard_WhenProper_ShouldReturnFeet() {
+        Assert.assertEquals(3, quantityMeasurement.getMeasurement
+                           (Measurement.ConversionUnit.YARDTOFEET,1),0.0);
     }
 
 }
