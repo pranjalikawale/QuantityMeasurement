@@ -139,5 +139,16 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(1.002, quantityMeasurement.getMeasurement
                            (Measurement.ConversionUnit.FEETTOYARD,3),0.0);
     }
+    @Test
+    public void givenLengthInFeet_WhenZero_ShouldReturnYard() {
+        Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
+                           (Measurement.ConversionUnit.FEETTOYARD,0),0.0);
+    }
+
+    @Test
+    public void givenLengthInFeet_WhenImproper_ShouldReturnYard() {
+        Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
+                           (Measurement.ConversionUnit.FEETTOYARD,-1),0.0);
+    }
 
 }
