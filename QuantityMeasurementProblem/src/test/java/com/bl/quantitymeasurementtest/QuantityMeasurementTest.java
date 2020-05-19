@@ -85,6 +85,11 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality(Measurement.Unit.FEET,0,
                             Measurement.Unit.INCH,0));
     }
+    @Test
+    public void checkForInchObject_WhenNull_ShouldReturnFalse() {
+        QuantityMeasurement quantityMeasurement1=null;
+        Assert.assertNotEquals(quantityMeasurement1,quantityMeasurement);
+    }
 
 
 
