@@ -267,9 +267,9 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.FAHRENHEIT,212,Measurement.Unit.CELSIUS,100));
     }
-
-
-
-
-
+    @Test
+    public void givenCelsiusAndFahrenheit_WhenEqual_ShouldReturnEqual() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                        (Measurement.Unit.CELSIUS,100,Measurement.Unit.FAHRENHEIT,212));
+    }
 }
