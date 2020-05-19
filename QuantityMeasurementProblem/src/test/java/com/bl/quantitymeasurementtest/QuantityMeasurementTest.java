@@ -100,5 +100,12 @@ public class QuantityMeasurementTest {
         quantityMeasurement.getMeasurement(Measurement.ConversionUnit.INCHTOFEET,1);
         Assert.assertNotEquals(quantityMeasurement,new Measurement(Measurement.ConversionUnit.FEETTOINCH));
     }
+    @Test
+    public void checkForInchObjectValue_WhenEqual_ShouldReturnTrue() {
+        quantityMeasurement.getMeasurement(Measurement.ConversionUnit.INCHTOFEET,1);
+        QuantityMeasurement quantityMeasurement1=new QuantityMeasurement();
+        quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.INCHTOFEET,1);
+        Assert.assertEquals(quantityMeasurement,quantityMeasurement1);
+    }
 
 }
