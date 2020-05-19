@@ -194,6 +194,12 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.CENTIMETER,5,Measurement.Unit.INCH,2));
     }
+    @Test
+    public void givenTwoValue_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(2.0,quantityMeasurement.performAddition
+                           (Measurement.Unit.INCH,0,Measurement.Unit.INCH,2,Measurement.Unit.INCH)
+                            ,0.0);
+    }
 
 
 

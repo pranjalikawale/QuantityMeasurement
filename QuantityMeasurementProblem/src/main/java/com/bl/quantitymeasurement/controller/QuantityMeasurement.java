@@ -37,6 +37,21 @@ public class QuantityMeasurement {
             return true;
         return false;
     }
+    //Perform Addition
+    public double performAddition(Measurement.Unit type1,double val1,Measurement.Unit type2,double val2,Measurement.Unit type3){
+        if(val1==0)  //we are converting V1 to V2
+            return val2;
+        if (checkType(type1,type3))
+            val1 = convertUnit(type1, val1, type3);
+        if (checkType(type2,type3))
+            val2 = convertUnit(type2, val2, type3);
+        return addition(val1,val2);
+    }
+    //Addition of two value
+    public double addition( double value1,double value2){
+        return value1+value2;
+    }
+    //Override equal method
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
