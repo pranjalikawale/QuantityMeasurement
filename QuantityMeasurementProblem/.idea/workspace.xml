@@ -26,56 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f4152c2-ed26-4e63-8c15-a89276b80f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bl/quantitymeasurement/controller/QuantityMeasurement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bl/quantitymeasurement/model/Measurement$ConversionUnit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bl/quantitymeasurement/model/Measurement$Unit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/bl/quantitymeasurement/model/Measurement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/bl/quantitymeasurementtest/QuantityMeasurementTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bl.quantitymeasurementtest.QuantityMeasurementTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bl.quantitymeasurementtest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bl.quantitymeasurementtest.QuantityMeasurementTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bl/quantitymeasurement/controller/QuantityMeasurement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bl/quantitymeasurement/model/Measurement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bl/quantitymeasurementtest/QuantityMeasurementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0f4152c2-ed26-4e63-8c15-a89276b80f67" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +49,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Gradle.QuantityMeasurementTest">
     <configuration name="QuantityMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -156,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589862022175</updated>
       <workItem from="1589862029382" duration="4356000" />
-      <workItem from="1589874241514" duration="4719000" />
+      <workItem from="1589874241514" duration="5008000" />
     </task>
     <servers />
   </component>
@@ -188,6 +142,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1589879309105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589879309105" />
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589875689868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
