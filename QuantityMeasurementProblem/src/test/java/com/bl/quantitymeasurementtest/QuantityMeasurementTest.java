@@ -66,6 +66,21 @@ public class QuantityMeasurementTest {
         quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,2);
         Assert.assertNotEquals(quantityMeasurement,quantityMeasurement1);
     }
+    @Test
+    public void givenLengthInInch_WhenProper_ShouldReturnFeet() {
+        Assert.assertEquals(1.008, quantityMeasurement.getMeasurement
+                            (Measurement.ConversionUnit.INCHTOFEET,12),0.0);
+    }
+    @Test
+    public void givenLengthInInch_WhenZero_ShouldReturnFeet() {
+        Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
+                            (Measurement.ConversionUnit.INCHTOFEET,0),0.0);
+    }
+    @Test
+    public void givenLengthInInch_WhenImproper_ShouldReturnFeet() {
+        Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
+                            (Measurement.ConversionUnit.INCHTOFEET,-1),0.0);
+    }
 
 
 
