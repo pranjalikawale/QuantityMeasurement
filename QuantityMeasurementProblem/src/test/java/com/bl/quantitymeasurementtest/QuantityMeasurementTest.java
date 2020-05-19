@@ -234,6 +234,12 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.LITER,1,Measurement.Unit.MILILITER,1000));
     }
+    @Test
+    public void givenGallonAndLiter_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(7.56,quantityMeasurement.performAddition
+                           (Measurement.Unit.GALLON,1,Measurement.Unit.LITER,3.78, Measurement.Unit.LITER)
+                            ,0.0);
+    }
 
 
 
