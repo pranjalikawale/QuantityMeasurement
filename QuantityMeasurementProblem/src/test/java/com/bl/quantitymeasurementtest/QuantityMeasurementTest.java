@@ -262,6 +262,11 @@ public class QuantityMeasurementTest {
                            (Measurement.Unit.TON,1,Measurement.Unit.GRAM,1000,
                             Measurement.Unit.KILOGRAM),0.0);
     }
+    @Test
+    public void givenFahrenheitAndCelsius_WhenEqual_ShouldReturnEqual() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.FAHRENHEIT,212,Measurement.Unit.CELSIUS,100));
+    }
 
 
 

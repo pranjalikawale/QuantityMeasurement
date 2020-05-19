@@ -26,9 +26,13 @@ public class QuantityMeasurement {
     //Conversion of two different unit into one
     public double convertUnit(Measurement.Unit type1,double val1,Measurement.Unit type2){
         String var=null;
-        var = String.valueOf(type1) + "TO" + String.valueOf(type2);
-        Measurement.ConversionUnit type3 = Measurement.ConversionUnit.valueOf(var);
-        val1 = getMeasurement(type3, val1);
+        if(!(type1.equals(Measurement.Unit.CELSIUS) || type1.equals(Measurement.Unit.FAHRENHEIT))){
+            var = String.valueOf(type1) + "TO" + String.valueOf(type2);
+            Measurement.ConversionUnit type3 = Measurement.ConversionUnit.valueOf(var);
+            val1 = getMeasurement(type3, val1);
+        }
+        else
+            val1 = Measurement.temperatureConversion(val1, type1);
         return val1;
     }
     //Value are equal or not

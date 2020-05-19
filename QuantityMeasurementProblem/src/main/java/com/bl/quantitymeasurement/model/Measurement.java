@@ -26,5 +26,11 @@ public class Measurement {
             length*=quantity;
         return Math.max(length,0.0);
     }
+    //Conversion of temperature
+    public static double temperatureConversion(double temperature,Measurement.Unit category){
+        if(category==Unit.CELSIUS)
+            return Math.max(((temperature*1.8)+32),0.0);
+        return Math.max(((temperature-32)/1.8),0.0);
+    }
 
 }
