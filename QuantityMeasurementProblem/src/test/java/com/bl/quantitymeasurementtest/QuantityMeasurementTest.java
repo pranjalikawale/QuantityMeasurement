@@ -124,5 +124,10 @@ public class QuantityMeasurementTest {
         Assert.assertFalse(quantityMeasurement.checkEquality
                           (Measurement.Unit.INCH,1,Measurement.Unit.FEET,1));
     }
+    @Test
+    public void givenOneFeet12Inch_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.FEET, 1, Measurement.Unit.INCH,12));
+    }
 
 }
