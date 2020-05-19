@@ -251,6 +251,11 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.KILOGRAM,1,Measurement.Unit.GRAM,1000));
     }
+    @Test
+    public void given1TonneAnd1000Kg_WhenEqual_ShouldReturnEqual() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.KILOGRAM,1,Measurement.Unit.GRAM,1000));
+    }
 
 
 
