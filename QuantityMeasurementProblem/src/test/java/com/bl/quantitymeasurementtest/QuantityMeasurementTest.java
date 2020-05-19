@@ -59,6 +59,13 @@ public class QuantityMeasurementTest {
         quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
         Assert.assertEquals(quantityMeasurement,quantityMeasurement1);
     }
+    @Test
+    public void checkForObjectValue_WhenNotEqual_ShouldReturnFalse() {
+        quantityMeasurement.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
+        QuantityMeasurement quantityMeasurement1=new QuantityMeasurement();
+        quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,2);
+        Assert.assertNotEquals(quantityMeasurement,quantityMeasurement1);
+    }
 
 
 
