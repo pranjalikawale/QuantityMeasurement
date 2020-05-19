@@ -240,6 +240,12 @@ public class QuantityMeasurementTest {
                            (Measurement.Unit.GALLON,1,Measurement.Unit.LITER,3.78, Measurement.Unit.LITER)
                             ,0.0);
     }
+    @Test
+    public void givenLiterAndMililiter_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(2,quantityMeasurement.performAddition
+                           (Measurement.Unit.LITER,1,Measurement.Unit.MILILITER,1000, Measurement.Unit.LITER)
+                            ,0.0);
+    }
 
 
 
