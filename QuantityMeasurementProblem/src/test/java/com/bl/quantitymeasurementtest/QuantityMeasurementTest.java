@@ -224,6 +224,11 @@ public class QuantityMeasurementTest {
                            (Measurement.Unit.INCH,2,Measurement.Unit.CENTIMETER,2.5,Measurement.Unit.INCH)
                            ,0.0);
     }
+    @Test
+    public void givenGallonAndLiter_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                (Measurement.Unit.GALLON,1,Measurement.Unit.LITER,3.78));
+    }
 
 
 
