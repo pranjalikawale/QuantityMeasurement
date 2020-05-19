@@ -39,5 +39,11 @@ public class QuantityMeasurementTest {
         QuantityMeasurement quantityMeasurement1=null;
         Assert.assertNotEquals(quantityMeasurement1,quantityMeasurement);
     }
+    @Test
+    public void checkForObject_WhenReferenceEqual_ShouldReturnTrue() {
+        quantityMeasurement.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
+        Assert.assertEquals(quantityMeasurement,quantityMeasurement);
+    }
+
 
 }
