@@ -18,8 +18,6 @@ public class QuantityMeasurement {
         QuantityMeasurement that=(QuantityMeasurement)o;
         if(quantity==that.quantity && Double.compare(that.quantity,quantity)==0)
             return true;
-
-        //if(this.quantity==that.quantity) return true;
         return false;
     }
 

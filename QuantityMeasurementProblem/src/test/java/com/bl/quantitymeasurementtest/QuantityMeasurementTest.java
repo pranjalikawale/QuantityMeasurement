@@ -19,4 +19,9 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(12.0, quantityMeasurement.getMeasurement(Measurement.Measurements.FEETTOINCH,1),0.0);
     }
 
+    @Test
+    public void givenLengthInFeet_WhenZero_ShouldReturnInch() {
+        Assert.assertEquals(0.0, quantityMeasurement.getMeasurement(Measurement.Measurements.FEETTOINCH,0),0.0);
+    }
+
 }
