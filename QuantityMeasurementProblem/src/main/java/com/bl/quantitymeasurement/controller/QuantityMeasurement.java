@@ -3,14 +3,14 @@ package com.bl.quantitymeasurement.controller;
 import com.bl.quantitymeasurement.model.Measurement;
 
 public class QuantityMeasurement {
-
+    //Variables
     public double quantity;
+    //Conversion of unit
     public double getMeasurement(Measurement.Measurements quantityCategory, double length){
         quantity=length;
         quantity=new Measurement(quantityCategory).getMeasurement(quantity);
         return quantity;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
