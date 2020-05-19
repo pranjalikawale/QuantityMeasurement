@@ -154,5 +154,10 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(3, quantityMeasurement.getMeasurement
                            (Measurement.ConversionUnit.YARDTOFEET,1),0.0);
     }
+    @Test
+    public void givenZeroFeetZeroYard_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                         (Measurement.Unit.FEET,0, Measurement.Unit.YARD,0));
+    }
 
 }
