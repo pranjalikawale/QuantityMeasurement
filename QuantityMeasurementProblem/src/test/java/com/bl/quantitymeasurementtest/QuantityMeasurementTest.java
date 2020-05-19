@@ -52,6 +52,13 @@ public class QuantityMeasurementTest {
         quantityMeasurement.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
         Assert.assertNotEquals(quantityMeasurement,new Measurement(Measurement.ConversionUnit.INCHTOFEET));
     }
+    @Test
+    public void checkForObjectValue_WhenEqual_ShouldReturnTrue() {
+        quantityMeasurement.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
+        QuantityMeasurement quantityMeasurement1=new QuantityMeasurement();
+        quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1);
+        Assert.assertEquals(quantityMeasurement,quantityMeasurement1);
+    }
 
 
 
