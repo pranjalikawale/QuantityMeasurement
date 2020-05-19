@@ -114,5 +114,10 @@ public class QuantityMeasurementTest {
         quantityMeasurement1.getMeasurement(Measurement.ConversionUnit.INCHTOFEET,2);
         Assert.assertNotEquals(quantityMeasurement,quantityMeasurement1);
     }
+    @Test
+    public void givenOneFeetOneInch_WhenNotEqual_ShouldReturnFalse() {
+        Assert.assertFalse(quantityMeasurement.checkEquality
+                          (Measurement.Unit.FEET,1, Measurement.Unit.INCH,1));
+    }
 
 }
