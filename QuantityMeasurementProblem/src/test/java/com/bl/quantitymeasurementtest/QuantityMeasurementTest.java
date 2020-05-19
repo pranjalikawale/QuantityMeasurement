@@ -19,7 +19,6 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(12.0, quantityMeasurement
                 .getMeasurement(Measurement.ConversionUnit.FEETTOINCH,1),0.0);
     }
-
     @Test
     public void givenLengthInFeet_WhenZero_ShouldReturnInch() {
         Assert.assertEquals(0.0, quantityMeasurement
@@ -33,7 +32,7 @@ public class QuantityMeasurementTest {
     }
     //1.1
     @Test
-    public void givenZeroFeetZeroFeet_WhenEqual_ShouldReturnEqual() {
+    public void givenZeroFeetZeroFeet_WhenEqual_ShouldReturnTrue() {
         Assert.assertTrue(quantityMeasurement.checkEquality(Measurement.Unit.FEET,0,
                                                             Measurement.Unit.FEET,0));
     }
@@ -80,6 +79,11 @@ public class QuantityMeasurementTest {
     public void givenLengthInInch_WhenImproper_ShouldReturnFeet() {
         Assert.assertEquals(0.0, quantityMeasurement.getMeasurement
                             (Measurement.ConversionUnit.INCHTOFEET,-1),0.0);
+    }
+    @Test
+    public void givenZeroFeetZeroInch_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality(Measurement.Unit.FEET,0,
+                            Measurement.Unit.INCH,0));
     }
 
 
