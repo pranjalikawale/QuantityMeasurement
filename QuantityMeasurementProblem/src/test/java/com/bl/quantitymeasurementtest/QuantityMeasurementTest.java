@@ -34,5 +34,10 @@ public class QuantityMeasurementTest {
         Assert.assertEquals("Equal",quantityMeasurement.checkEquality(Measurement.Unit.FEET,0,
                                                                               Measurement.Unit.FEET,0));
     }
+    @Test
+    public void givenObject_WhenNull_ShouldReturnFalse() {
+        QuantityMeasurement quantityMeasurement1=null;
+        Assert.assertNotEquals(quantityMeasurement1,quantityMeasurement);
+    }
 
 }
