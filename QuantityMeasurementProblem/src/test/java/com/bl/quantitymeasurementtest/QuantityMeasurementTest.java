@@ -197,10 +197,15 @@ public class QuantityMeasurementTest {
     @Test
     public void givenTwoValue_WhenAdded_ShouldReturnResult() {
         Assert.assertEquals(2.0,quantityMeasurement.performAddition
-                           (Measurement.Unit.INCH,0,Measurement.Unit.INCH,2,Measurement.Unit.INCH)
+                           (Measurement.Unit.INCH,0,Measurement.Unit.INCH, 2,Measurement.Unit.INCH)
                             ,0.0);
     }
-
+    @Test
+    public void givenTwoLengthInInch_WhenAdded_ShouldReturnResult() {
+        Assert.assertEquals(4.0,quantityMeasurement.performAddition
+                           (Measurement.Unit.INCH,2,Measurement.Unit.INCH,2,Measurement.Unit.INCH)
+                            ,0.0);
+    }
 
 
 }
