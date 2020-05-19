@@ -134,5 +134,10 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(quantityMeasurement.checkEquality
                          (Measurement.Unit.INCH,12,Measurement.Unit.FEET,1));
     }
+    @Test
+    public void givenLengthInFeet_WhenProper_ShouldReturnYard() {
+        Assert.assertEquals(1.002, quantityMeasurement.getMeasurement
+                           (Measurement.ConversionUnit.FEETTOYARD,3),0.0);
+    }
 
 }
