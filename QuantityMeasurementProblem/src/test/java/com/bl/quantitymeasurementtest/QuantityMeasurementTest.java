@@ -169,5 +169,10 @@ public class QuantityMeasurementTest {
         Assert.assertFalse(quantityMeasurement.checkEquality
                           (Measurement.Unit.FEET,1, Measurement.Unit.YARD,1));
     }
+    @Test
+    public void givenOneYard36Inch_WhenEqual_ShouldReturnTrue() {
+        Assert.assertTrue(quantityMeasurement.checkEquality
+                        (Measurement.Unit.YARD,1,Measurement.Unit.INCH,36));
+    }
 
 }
