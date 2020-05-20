@@ -1,44 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.quantitymeasurementtest.QuantityMeasurementTest" tests="39" skipped="0" failures="0" errors="0" timestamp="2020-05-19T12:29:51" hostname="SWAPNIKA" time="0.139">
+<testsuite name="com.bl.quantitymeasurementtest.QuantityMeasurementTest" tests="48" skipped="0" failures="0" errors="0" timestamp="2020-05-20T10:42:18" hostname="SWAPNIKA" time="0.192">
   <properties/>
-  <testcase name="checkForInchObject_WhenClassTypeNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.006"/>
-  <testcase name="checkForInchObjectValue_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.004"/>
-  <testcase name="givenOneYardThreeFeet_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.045"/>
+  <testcase name="checkForInchObject_WhenClassTypeNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.007"/>
+  <testcase name="givenGallonAndLiter_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.103"/>
+  <testcase name="checkForInchObjectValue_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenOneYardThreeFeet_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="given36InchOneYard_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="given1TonneAnd1000Kg_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="checkForInchObjectValue_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenOneFeetOneFeet_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="checkForObjectValue_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="checkForObjectValue_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenFahrenheitAndCelsius_WhenEqual_ShouldReturnEqual" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="givenLengthInFeet_WhenProper_ShouldReturnInch" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenLengthInFeet_WhenProper_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenLengthInFeet_WhenProper_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenOneFeetOneYard_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="givenTwoValue_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenTwoValue_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenThreeFeetOneYard_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="checkForObjectValue_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="checkForObjectValue_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.003"/>
   <testcase name="givenZeroFeetZeroYard_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenZeroFeetZeroInch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="checkForObject_WhenClassTypeNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.002"/>
+  <testcase name="givenLiterAndMiliLiter_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenCelsiusAndFahrenheit_WhenEqual_ShouldReturnEqual" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenZeroFeetZeroInch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="checkForObject_WhenClassTypeNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenLengthInYard_WhenProper_ShouldReturnFeet" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenLengthInFeet_WhenImproper_ShouldReturnInch" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenLengthInFeet_WhenImproper_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="givenOneFeetTwoInch_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenLengthInFeet_WhenImproper_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenOneFeetTwoInch_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="given1KgAnd1000Gram_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenLiterAndMililiter_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="givenLengthInInch_WhenImproper_ShouldReturnFeet" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="given5CentimeterTwoInch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenLengthInInch_WhenProper_ShouldReturnFeet" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenLengthInInch_WhenZero_ShouldReturnFeet" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenLengthInInch_WhenZero_ShouldReturnFeet" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="givenOneInchOneFeet_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenOneFeet12Inch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenOneFeet12Inch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="given12InchOneFeet_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="checkForInchObject_WhenNull_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenOneFeetOneInch_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenTwoInch5Cm_WhenEqual_ShouldReturnEqual" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenTwoInchTwoAndHalfCm_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.006"/>
-  <testcase name="givenZeroFeetZeroFeet_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenOneFeetOneInch_WhenNotEqual_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenTwoInch5Cm_WhenEqual_ShouldReturnEqual" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenTwoInchTwoAndHalfCm_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenZeroFeetZeroFeet_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
   <testcase name="givenLengthInFeet_WhenZero_ShouldReturnInch" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="givenLengthInFeet_WhenZero_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="checkForInchObject_WhenReferenceEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenObject_WhenNull_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.002"/>
+  <testcase name="givenLengthInFeet_WhenZero_ShouldReturnYard" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="checkForInchObject_WhenReferenceEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenObject_WhenNull_ShouldReturnFalse" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="givenOneYard36Inch_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="givenTwoLengthInInch_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.0"/>
+  <testcase name="givenGallonAndLiter_WhenEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="given1TonneAnd1000g_WhenAdd_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="givenTwoLengthInInch_WhenAdded_ShouldReturnResult" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <testcase name="checkForObject_WhenReferenceEqual_ShouldReturnTrue" classname="com.bl.quantitymeasurementtest.QuantityMeasurementTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -3,7 +3,10 @@ package com.bl.quantitymeasurement.model;
 public class Measurement {
     //Variable
     public double quantity;
-    //Constructor
+    /**
+     * @purpose: Constructor
+     * @param: quantity
+     */
     public Measurement(ConversionUnit quantity) {
         this.quantity=quantity.measurement;
     }
@@ -20,13 +23,23 @@ public class Measurement {
             this.measurement=i;
         }
     };
-    //Method for conversion of unit
+
+    /**
+     * @purpose: Method for conversion of unit
+     * @param: length
+     * @return: Unit in double
+     */
     public double getMeasurement(double length){
         if(length>0)
             length*=quantity;
         return Math.max(length,0.0);
     }
-    //Conversion of temperature
+
+    /**
+     * @purpose: Conversion of temperature
+     * @param: temperature,category
+     * @return: temperature
+     */
     public static double temperatureConversion(double temperature,Measurement.Unit category){
         if(category==Unit.CELSIUS)
             return Math.max(((temperature*1.8)+32),0.0);
